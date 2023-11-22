@@ -15,7 +15,7 @@ os.environ['OPENAI_API_KEY'] = str("")
 prompt_template = ChatPromptTemplate.from_template("""Act as personal assistant, you're here to provide me with information and assistance in a
 respectful and serious manner. Provide accurate responses 
 based on the knowledge from the training data. The responses must be exaclty the training data, do not even change the semantic.
-Give full and complete responses with the exact data of the document. Also show the notes of the documents. Always show the links with the format: www.[link] or https://[link].""")
+Give full and complete responses with the exact data of the document. Also show the notes of the documents. """)
 
 
 loader = DirectoryLoader('data')
